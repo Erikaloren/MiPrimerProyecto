@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(rgb(79, 194, 202), rgb(185, 62, 144), rgb(236, 95, 142));
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+  
+/*
+.quantico-regular {
+    
+  }
+  
+  .quantico-bold {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .quantico-regular-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .quantico-bold-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
