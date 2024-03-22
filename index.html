@@ -1,50 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilitos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Mi Primer Proyecto</title>
 </head>
+
 <body>
-    <h1> ¿Quién soy yo?</h1>
 
-    <p>¿Mi nombre? Soy <strong>Erika Lorena González Cristancho</strong>, soy un humano que vive al norte de Bogotá y tiene 28 años. A continuación hablaré más detalladamente sobre mi vida</p>
-    <hr/>
-    <h2>¿A qué me dedico?</h2>
+    <div class="contenedor">
+        <div class="titleContainer">
+            <header>Getting to know Erika</header> <br>
+            <ul class="menu">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Top Artists</a></li>
+                <li><a href="#">Fav. Chanel</a></li>
+                <li><a href="#">Some Pictures</a></li>
+            </ul>
+            <br>
+        </div>
+        <div class="contentParent">
+            <div class="contentContainer">
+                <h2> ¿Quién soy yo? </h2>
     
-    <p> Existen dos cosas que estoy haciendo todos los días actualmente. 
-        Trabajo como "Agente Trilingüe" (Español, Inglés y Alemán) en un call center. El contrato es con Teleperformance, pero el cliente es una plataforma de pagos llamada "Stripe". No trabajo en ventas, sino en soporte al cliente para Start Ups y empresas de alto volumen. 
-    </p>
-    <hr/>
-    <h2>¿Tengo algún "hobbie"?</h2>
-    <p>Sí, existen muchas cosas que me gusta hacer. Entre ellas están:
-        <ul>
-            <li>Practicar yoga y Acroyoga</li>
-            <li>Pintar (con colores y acuarela)</li>
-            <li>Escuchar música</li>
-            <li>Ver ánime o muñequitos</li>
-            <li>Actualmente me estoy certificando como buceadora PADI</li>
-        </ul>
-    </p>
-    <h2>¿Cuál es mi comida favorita?</h2>
-    <span>En general me gustan los quesos, pero si hay algo que pudiese comer todos los días sería el pollo guisado.</span> <br>
+                <p>
+                    ¿Mi nombre? Soy Erika Lorena González Cristancho, soy un humano que vive al norte de Bogotá y tiene 28
+                    años.
+                    A continuación hablaré más detalladamente sobre mi vida.
+                </p>
+                <h2>
+                    ¿A qué me dedico?
+                </h2>
+                <p>
+                    Existen dos cosas que estoy haciendo todos los días actualmente.
+                    Trabajo como "Agente Trilingüe" (Español, Inglés y Alemán) en un call center. El contrato es con
+                    Teleperformance, pero el cliente es una plataforma de pagos llamada "Stripe". Por otro lado, estoy estudiando
+                    programación.
+                </p>
+                <h2>
+                    ¿Tengo algún "hobbie"?
+                </h2>
+                Sí, existen muchas cosas que me gusta hacer. Entre ellas están:
+                <ul>
+                    <li>Practicar yoga y Acroyoga</li>
+                    <li>Pintar (con colores y acuarela)</li>
+                    <li>Escuchar música</li>
+                    <li>Ver ánime o muñequitos</li>
+                    <li>Actualmente me estoy certificando como buceadora PADI</li>
+                </ul>
+                <h2>¿Cuál es mi comida favorita?</h2>
+                <span>En general me gustan los quesos, pero si hay algo que pudiese comer todos los días sería el pollo
+                    guisado.</span>
+    
+                <h3> Pollo Guisado </h3>
+                <ol>
+                    <li>Primero lavar dos muslos de pollo (sin quitarles la piel)</li>
+                    <li>Picar el ajo, tomate, cebolla</li>
+                    <li>Poner en sarten con un poquito de aceite los vegetales picados</li>
+                    <li>Agregar color, magui y orégano</li>
+                    <li>Luego agregar el pollo al guiso</li>
+                    <li>Agregar una taza de agua</li>
+                    <li>dejarlo a fuego lento durante 30 minutos</li>
+                </ol>
+            </div>
+            <div class="profileContainer">
+                <h2>Profile Picture</h2>
+                <img src="mifoto.jpg" alt="profile_photo" class="profilePhoto">
+                <h2>Social Media</h2>
 
-    <title> <strong> Pollo Guisado </strong></title>
-    <ol>
-        <li>Primero lavar dos muslos de pollo (sin quitarles la piel)</li>
-        <li>Picar el ajo, tomate, cebolla</li>
-        <li>Poner en sarten con un poquito de aceite los vegetales picados</li>
-        <li>Agregar color, magui y orégano</li>
-        <li>Luego agregar el pollo al guiso</li>
-        <li>Agregar una taza de agua</li>
-        <li>dejarlo a fuego lento durante 30 minutos</li>
-    </ol>
-    <img src="Download.jpg" alt="Foto de pollito guisado">
-
-
+                <div class="SocialMedia">
+                <a rel="" href="https://www.instagram.com/nie_m_and_?utm_source=qr&igsh=eDVmNWcwMTl2b2Zw" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="https://github.com/Erikaloren" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+                </div>
+                <h2>Favorite Food</h2>
+                <img src="Download.jpg" alt="Favorite_Food" class="favoritefood">
+            </div>
+        </div>
+             <table>
+                <thead>                
+                    <th colspan="4">Top Artistas</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grimes</td>
+                        <td>Phill Bozeman</td>
+                        <td>Neige</td>
+                        <td>Devin Townsend</td>
+                      </tr>
+                      <tr>
+                        <td><img src="grimes.jpg" alt="Foto de Grimes" class="Pictures"></td>
+                        <td><img src="phil-bozeman-xGj9x.jpg" alt="Foto de Phill Bozeman" class="Pictures"></td>
+                        <td><img src="neige.jpg" alt="Foto de Neige" class="Pictures"></td>
+                        <td><img src="Devin_Townsend.jpg" alt="Foto de Devin" class="Pictures"></td>
+                      </tr>
+                </tbody>
+              </table>
+              <h2>Mi Canal Favorito</h2>
+              <center><iframe width="560" height="315" src="https://www.youtube.com/embed/6FWmdzmcYMg?si=Wdn-NSoYJ_uxoG-w&amp;start=300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+              <br>
+    </div>
 </body>
+
 </html>
+
+<!--<div class="mainInfoContainer">
+    <div class="mainInfoContainer leftColumn">
+        <p class="mainInfoContainer leftColumn text">¿Mi nombre? Soy <strong>Erika Lorena González
+                Cristancho</strong>, soy un humano que vive al norte de Bogotá y tiene 28 años. A continuación
+            hablaré más detalladamente sobre mi vida.</p> */-->

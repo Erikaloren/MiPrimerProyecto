@@ -1,11 +1,203 @@
-body{
-    background: linear-gradient(rgb(79, 194, 202), rgb(185, 62, 144), rgb(236, 95, 142));
-    font-family: "Quantico", sans-serif;
+body {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 400;
     font-style: normal;
+    background-color: rgb(26, 23, 23);
+    font-family: "Quantico", sans-serif;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    border-style: double;
+    justify-content: start;
+    flex-direction: column;
+    background: linear-gradient(rgb(98, 106, 107), rgb(73, 60, 69), rgb(90, 64, 72));
+}
+
+.contentContainer {
+    width: 70%;
+    align-items: start;
+    padding: 10px 15px 15px 15px;
+}
+
+.titleContainer {
+    width: 100%;
+    text-align: center;
+    border-style: groove;
+}
+
+header{
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.menu{
+    background-color: rgb(42, 68, 68);
+    border-color: black;
+    border-style: groove;
+    max-width: 1000px;
+    list-style: none;
+    padding: 20px;
+    margin: auto;
+    border: 2px;
+    width: 50%;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.menu li a{
+    text-decoration: none;
+    line-height: 40%;
+    display: block;
+    color:white;
+    padding: 10px;
+    height: 35px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    padding: 0;
+    line-height: 40%;
+}
+
+.menu li a:hover{
+    background: black;
+}
+
+.contentParent {
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    border-style: groove;
+}
+
+.profileContainer {
+    gap: 26px;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 8px 0px 8px;
+    border-style: groove;
+}
+
+
+.profilePhoto {
+    width: 200px;
+    display: flex;
+    height: 200px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.favoritefood {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+h2, h3, h4 {
     text-align: center;
 }
-  
+
+table, th, td{
+    border-style: groove;
+    border-color: rgb(245, 236, 245);
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
+    gap: 8px;
+    background-color: rgb(87, 83, 83);
+    text-align: center;
+}
+
+table{
+    width:90%;
+    padding-left: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+tbody tr{
+    border-left: 1px;
+    border-color: rgb(202, 188, 188);
+}
+
+.Pictures{
+    width: 200px;
+    display: flex;
+    height: 200px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+@media screen and (min-width: 280px) {
+    .menu{
+        display: flex;
+        width: 500px;
+    }
+    body{
+        margin: 0%;
+    } 
+    table{
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    table{
+        margin-left: 5%;
+    }
+}
+
+
+
+/*
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainInfoContainer.leftColumn {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainInfoContainer.leftColumn.text {
+    margin: 0;
+    padding: 0;
+
+    .strong {
+        display: inline;
+    }
+}
+
+
+
+
 /*
 .quantico-regular {
     
