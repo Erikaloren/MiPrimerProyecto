@@ -101,6 +101,7 @@ header{
     align-self: center;
     border-radius: 50%;
     justify-content: center;
+    position: relative;
 }
 
 .favoritefood {
@@ -138,6 +139,7 @@ table{
 tbody tr{
     border-left: 1px;
     border-color: rgb(202, 188, 188);
+    
 }
 
 .Pictures{
@@ -148,6 +150,9 @@ tbody tr{
     align-self: center;
     border-radius: 50%;
     justify-content: center;
+    position:relative;
+    padding-left: 10%;
+    padding-right: 0%;
 }
 
 @media screen and (min-width: 280px) {
@@ -219,5 +224,9 @@ tbody tr{
     font-family: "Quantico", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+  } 
+
+  */
+
+  
   
